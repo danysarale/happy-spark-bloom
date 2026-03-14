@@ -10,7 +10,7 @@ const features = [
   { icon: Award, title: "8 Anos de Tradição", desc: "Solução consolidada, confiável e constantemente atualizada." },
 ];
 
-const ease = [0.16, 1, 0.3, 1];
+const ease = [0.16, 1, 0.3, 1] as const;
 
 const SolutionSection = () => (
   <section className="section-spacing">

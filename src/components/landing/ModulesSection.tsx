@@ -8,7 +8,7 @@ const modules = [
   { icon: Handshake, title: "Compras", desc: "Fornecedores, cotações e pedidos", metric: "−23% custo" },
 ];
 
-const ease = [0.16, 1, 0.3, 1];
+const ease = [0.16, 1, 0.3, 1] as const;
 
 const ModulesSection = () => (
   <section className="section-spacing bg-surface">

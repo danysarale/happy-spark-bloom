@@ -45,7 +45,7 @@ const plans = [
   },
 ];
 
-const ease = [0.16, 1, 0.3, 1];
+const ease = [0.16, 1, 0.3, 1] as const;
 
 const PricingSection = () => (
   <section className="section-spacing" id="pricing">

@@ -21,7 +21,7 @@ const faqs = [
   },
 ];
 
-const ease = [0.16, 1, 0.3, 1];
+const ease = [0.16, 1, 0.3, 1] as const;
 
 const FaqSection = () => (
   <section className="section-spacing bg-surface">
