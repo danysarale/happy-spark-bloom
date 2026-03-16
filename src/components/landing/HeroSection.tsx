@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import heroImg from "@/assets/hero-dashboard.jpg";
 
-const WHATSAPP_URL = "https://wa.me/5511999999999?text=Gostaria%20de%20agendar%20uma%20demonstra%C3%A7%C3%A3o%20gratuita%20do%20ERP%20White-Label";
+const WHATSAPP_URL = "https://wa.me/5562996759233?text=Gostaria%20de%20agendar%20uma%20demonstra%C3%A7%C3%A3o%20gratuita%20do%20ERP%20White-Label";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
